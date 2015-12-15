@@ -1,4 +1,4 @@
-package com.xc.wt;
+package com.xc.wt.view;
 
 import java.util.Map;
 
@@ -19,7 +19,7 @@ public class DataView implements View {
 	@Override
 	public void render(Map<String, ?> model, HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
-		response.getWriter().write(new Gson().toJson(model));
+		response.getWriter().write(new Gson().toJson(model.get("data")));
 	}
 
 }
