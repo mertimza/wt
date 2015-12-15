@@ -1,4 +1,4 @@
-package com.xc.wt;
+package com.xc.wt.view;
 
 import java.util.Map;
 

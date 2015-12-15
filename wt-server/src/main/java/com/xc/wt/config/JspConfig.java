@@ -1,4 +1,4 @@
-package com.xc.wt;
+package com.xc.wt.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
