@@ -1,8 +1,18 @@
 <html>
+
 <head>
-<title>Hello Spring MVC</title>
+    <title>Hello Titty</title>
 </head>
+
 <body>
-	<h2>${msg}</h2>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $.get("index.html", function(data, status) {
+            document.write("<b>Data:</b> " + data + "\n<b>Status:</b> " + status);
+        });
+    });
+    </script>
 </body>
+
 </html>
