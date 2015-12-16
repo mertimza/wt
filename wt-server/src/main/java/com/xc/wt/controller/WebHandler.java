@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class WebHandler {
 	@RequestMapping(value = "/")
 	public String getRoot(Model model) {
-		return "/x/index.html";
+		return "/index.html";
 	}
 }
